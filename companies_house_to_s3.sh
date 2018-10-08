@@ -4,7 +4,7 @@ set -e
 
 tmpdir=$(mktemp -d)
 
-date=$(date '+%Y-%m-%d')
+date=$(date "+$DATE_FORMAT")
 
 cd $tmpdir
 
